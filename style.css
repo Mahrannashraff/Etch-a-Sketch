@@ -1,0 +1,28 @@
+html{
+    background-color: bisque;
+}
+
+.title{
+    font-style: italic;
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.board{
+    width: 500px;
+    height: 500px;
+    display:grid;
+    border: 3px solid black;
+}
+
+button{
+    border-radius: 10px;
+    background-color: coral;
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+}
